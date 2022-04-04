@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+.sort {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .sortIcon {
+    margin-right: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .highlight {
+    margin-left: 4px;
+    color: $primary-color;
+  }
+}

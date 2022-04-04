@@ -1,0 +1,9 @@
+$primary-color: #43b02a;
+$border-color: #d9d9d9;
+$body-color: #eff2f5;
+
+:export {
+  primary-color: $primary-color;
+  border-color: $border-color;
+  body-color: $body-color;
+}

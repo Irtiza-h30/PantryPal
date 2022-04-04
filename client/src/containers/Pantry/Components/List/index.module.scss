@@ -1,0 +1,9 @@
+@import "variables.scss";
+
+.Tag {
+  &:global(.ant-tag-checkable) {
+    border: 1px solid $border-color;
+    margin: 3px;
+    padding: 5px;
+  }
+}

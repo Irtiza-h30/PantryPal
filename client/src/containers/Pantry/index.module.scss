@@ -1,0 +1,79 @@
+@import "variables.scss";
+
+.Container {
+  display: flex;
+  gap: 20px;
+}
+
+.Sidebar {
+  max-width: 625px;
+  width: 100%;
+}
+
+.PanelContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Card {
+  flex-basis: 625px;
+}
+
+.IngredientsCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.Icon {
+  margin-right: 12px;
+}
+
+.Alert {
+  width: 100%;
+  height: 64px;
+}
+
+.List {
+  :global(.ant-row) {
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+.Recipes {
+  width: calc(100% - 625px);
+}
+
+.Search {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  .Container {
+    flex-direction: column;
+  }
+  .Sidebar {
+    max-width: 100%;
+  }
+  .PanelContainer {
+    flex-direction: row;
+    .Card {
+      flex-basis: 50%;
+    }
+  }
+  .Recipes {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .PanelContainer {
+    flex-direction: column;
+  }
+}

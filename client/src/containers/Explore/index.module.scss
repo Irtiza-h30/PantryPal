@@ -1,0 +1,35 @@
+@import "variables.scss";
+
+.Header {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.List {
+  :global(.ant-row) {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+.Sider {
+  margin: -2em 4em -2em -2em;
+  border-top: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  padding: 2em;
+  min-height: calc(100vh - 64px);
+}
+
+.Content {
+  max-height: 90vh;
+  overflow-y: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.Submit {
+  display: flex;
+  justify-content: center;
+}
