@@ -78,7 +78,7 @@ Start both deployment servers from their respective sub-directories:
   npm start
 ```
 
-To view the app go to http://localhost:3000, and to interact with the GraphQL server, visit http://localhost:4000/graphql. To view the deployed version of the application, visit: [PantryPal](http://www.pantrypal.ca).
+To view the app go to http://localhost:3000, and to interact with the GraphQL server, visit http://localhost:4000/graphql. To view the deployed version of the application, visit: [PantryPal](https://my-pantrypal.herokuapp.com/).
 
 ## Running Tests
 
