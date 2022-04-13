@@ -1,7 +1,5 @@
 ## PantryPal
 
-To view the deployed version of the application, visit: [PantryPal](http://www.pantrypal.ca/login)
-
 ## Features
 
 ### :spaghetti: Search Dishes
