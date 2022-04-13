@@ -63,8 +63,6 @@ const IngredientsForm = ({ form }) => {
           <Option value="British">British</Option>
           <Option value="Cajun">Cajun</Option>
           <Option value="Caribbean">Caribbean</Option>
-          <Option value="Ovo-Vegetarian">Ovo-Vegetarian</Option>
-          <Option value="Vegan">Vegan</Option>
           <Option value="Chinese">Chinese</Option>
           <Option value="Eastern European">Eastern European</Option>
           <Option value="European">European</Option>
@@ -74,7 +72,6 @@ const IngredientsForm = ({ form }) => {
           <Option value="Irish">Irish</Option>
           <Option value="Italian">Italian</Option>
           <Option value="Japanese">Japanese</Option>
-          <Option value="Jewish">Jewish</Option>
           <Option value="Latin American">Latin American</Option>
           <Option value="Mediterranean">Mediterranean</Option>
           <Option value="Mexican">Mexican</Option>

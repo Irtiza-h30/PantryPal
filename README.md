@@ -20,7 +20,7 @@ Users can customize their search results using filters to match specific dietary
 
 Users can save recipes to their “Cookbook”. This gives users quick and direct access to their favourite recipes.
 
-## Screenshot of Available Features
+## Screenshots of Available Features
 
 ### Login
 
